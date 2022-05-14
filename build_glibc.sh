@@ -73,7 +73,6 @@ echo "============================================================"
 ${DEBUG} kwbuildproject --force --verbose \
     --license-host ${KW_LICENSE_SERVER_URL} --license-port ${KW_LICENSE_SERVER_PORT} \
     --url ${KW_SERVER_URL}/${KW_PROJ} -o my_tables kwinject.out
-exit $?
 
 echo ""
 echo "============================================================"
